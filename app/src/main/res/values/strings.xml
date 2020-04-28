@@ -3,4 +3,5 @@
     <string name="temperature_value">20</string>
     <string name="temperature">°C</string>
     <string name="sensor">Sensor X:</string>
+    <string name="initial_timer">Veriler indiriliyor.</string>
 </resources>
