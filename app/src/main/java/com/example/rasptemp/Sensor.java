@@ -4,9 +4,13 @@ public class Sensor {
     private float value, max_limit, min_limit;
     private int id = -1;
     public String name;
-    public Sensor(String name, float value) {
+    private Integer sensor_page;
+    private Integer shelf;
+    public Sensor(String name, float value, int sensor_page, int shelf) {
         this.name = name;
         this.value = value;
+        this.sensor_page = sensor_page;
+        this.shelf = shelf;
     }
 
     public void setValue(float value) {
@@ -20,6 +24,7 @@ public class Sensor {
     public  float getValue() {
         return this.value;
     }
+
 
     public void setName(String name) {
         this.name = name;
@@ -37,4 +42,7 @@ public class Sensor {
         return  this.id;
     }
 
+    public int getSensorPage() { return  this.sensor_page; }
+
+    public int getShelf() { return  this.shelf; }
 }

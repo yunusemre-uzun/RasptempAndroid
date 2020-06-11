@@ -1,7 +1,11 @@
 <resources>
-    <string name="app_name">RaspTemp</string>
+    <string name="app_name">Birlik Mantar</string>
     <string name="temperature_value">20</string>
     <string name="temperature">°C</string>
     <string name="sensor">Sensor X:</string>
     <string name="initial_timer">Veriler indiriliyor.</string>
+    <string name="not_fount">Sensor Bulunamadi</string>
+    <string name="next">Sonraki</string>
+    <string name="previous">Onceki</string>
+    <string name="dummy">Name</string>
 </resources>
